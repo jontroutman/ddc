@@ -1,0 +1,98 @@
+	.session-image {
+		display: block;
+		width: 100%;
+		margin: auto;
+	}
+#session {
+	background: $white;
+	padding: 1rem;
+	.session-intro-details {
+		margin: 1rem 0;
+	}
+	.session-motion {
+		margin: 3rem 0;
+		h1 {
+			margin: 1rem auto 0;
+			color: $orange;
+			max-width: 840px;
+		}
+		@media screen and (min-width: $small) {
+			margin: 5rem 0;
+		}
+	}
+	.session-when-where,
+	.session-signup,
+	.session-moderator,
+	.session-sponsors {
+		margin-bottom: 3rem;
+		@media screen and (min-width: $small) {
+			margin-bottom: 4.5rem;
+		}
+	}
+	.session-description {
+		text-align: left;
+		max-width: 600px;
+		margin-bottom: 4rem;
+		@media screen and (min-width: $small) {
+			margin: 2rem auto 6rem;
+			p {
+				font-size: 1.3rem;
+			}
+		}
+	}
+	.session-moderator,
+	.session-sponsors {
+		max-width: 420px;
+		margin: 0 auto 3rem;
+		img {
+			margin-top: 0.5rem;
+			margin-bottom: 1rem;
+		}
+	}
+	.team {
+		@media screen and (min-width: $small) {
+			padding: 2.5rem;
+		}
+		@media screen and (min-width: $medium) {
+			width: 50%;
+			float: left;
+		}
+	}
+	.team-position {
+		padding-bottom: 2rem;
+		margin-bottom: 2rem;
+		border-bottom: 4px solid $black;
+		span {
+			display: block;
+			font-family: $futura-bold;
+			font-size: 3rem;
+			color: $orange;
+			@media screen and (min-width: $small) {
+				font-size: 3.75rem;
+			}
+		}
+	}
+	.team-debater {
+		max-width: 420px;
+		margin: 0 auto 3rem;
+		img {
+			margin-bottom: 1rem;
+		}
+	}
+	.team-debater-title,
+	.moderator-title {
+		font-family: $futura-bold;
+		line-height: 1.25;
+		color: $grey-dark;
+		margin-top: 0;
+	}
+	.session-moderator,
+	.team-debater,
+	.session-sponsors {
+		h3 > a {
+			text-decoration: none;
+
+		}
+	}
+}
+

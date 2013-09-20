@@ -1,0 +1,32 @@
+#mc_embed_signup {
+	text-align: center;
+	form {
+		padding: 0 !important;
+	}
+}
+#mc_embed_signup input[type=email].email {
+	font-family: $futura-bold;
+	font-size: 1.25rem;
+	padding-left: 1rem;
+	border: none;
+	margin: 1rem auto;
+	height: 3.5rem;
+	width: 100%;
+	max-width: 500px;
+}
+
+#mc_embed_signup input[type=submit].button {
+	font-family: $futura-bold;
+	font-size: 1rem;
+	letter-spacing: 0.125rem;
+	padding: 1rem;
+	margin: 0 auto 2rem;
+	border: none;
+	height: 3.5rem;
+	width: 100%;
+	max-width: 14rem;
+	background: $orange;
+	&:hover {
+		background: $green;
+	}
+}

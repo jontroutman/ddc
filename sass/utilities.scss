@@ -1,0 +1,13 @@
+.max-width {
+	margin: auto;
+	padding: 0 1rem;
+	@media screen and (min-width: $large) {
+		max-width: 1000px;
+		padding: 0;
+	}
+}
+
+.clearfix:before,
+.clearfix:after {content:"";display:table;}
+.clearfix:after {clear:both;}
+.clearfix {zoom:1;} /* For IE 6/7 (trigger hasLayout) */

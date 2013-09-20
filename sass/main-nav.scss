@@ -1,0 +1,29 @@
+nav.main-nav {
+	font-family: $futura-bold;
+	text-transform: uppercase;
+	font-size: $text-small;
+	letter-spacing: 0.125rem;
+	color: $grey-dark;
+	border-bottom: 4px solid $black;
+	padding-bottom: 0.5rem;
+	a {
+		display: block;
+		padding-top: 0.5rem;
+		text-decoration: none;
+		@include single-transition(color, 0.15s, ease-in-out, 0);
+		&:hover {
+			color: $black;
+		}
+	}
+	ul {
+		@include clearfix;
+	}
+	ul li {
+		float: left;
+		padding-right: 3rem;
+		&:last-of-type {
+			float: right;
+			padding-right: 0;
+		}
+	}
+}

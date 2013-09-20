@@ -1,0 +1,73 @@
+.about-ddc {
+	h1 {
+		margin: 3rem 0;
+		color: $orange;
+	}
+	.about-description {
+		max-width: 600px;
+		margin: 3rem auto;
+		text-align: left;
+		@media screen and (min-width: $small) {
+			font-size: 1.3rem;
+		}
+	}
+	@media screen and (min-width: $small) {
+		margin-top: 4rem;
+		margin-bottom: 6rem;
+	}
+}
+
+.about-founders {
+	max-width: 740px;
+	margin: 3rem auto 6rem;
+	h1 {
+		color: $orange;
+	}
+	.founder {
+		width: 50%;
+		float: left;
+		margin-top: 2rem;
+		p {
+			margin: 0;
+			text-align: center;			
+		}
+		.founder-name {
+			font-family: $futura-bold;
+			font-size: 1.7rem;
+			margin: 0;
+			// color: $orange;
+		}
+		.founder-title {
+			font-family: $futura-bold;
+			line-height: 1.25;
+			color: $grey-dark;
+		}
+		img {
+			width: 100%;
+		}
+		@media screen and (min-width: $small) {
+			padding: 0 2.5rem;
+		}
+	}
+	@media screen and (min-width: $small) {
+		margin-top: 4rem;
+		margin-bottom: 6rem;
+	}
+}
+
+.about-format {
+	h1 {
+		margin: 3rem 0;
+		color: $orange;
+	}
+	img {
+		width: 100%;
+		@media screen and (min-width: $medium) {
+			width: 80%;
+		}
+	}
+	@media screen and (min-width: $small) {
+		margin-top: 4rem;
+		margin-bottom: 6rem;
+	}
+}
